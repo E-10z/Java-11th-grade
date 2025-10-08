@@ -13,8 +13,11 @@ class Main {
 	double v = sphereVolume(10);
 	System.out.println(v);
 
-	double m = coneRadius(10,20);
+	double m = coneVolume(10,20);
 	System.out.println(m);
+
+	double d= distance(1,2,4,6);
+	System.out.println(d);
   }
   
   void print(String msg){
@@ -31,10 +34,14 @@ class Main {
 	return v;
   }
   
-  double coneRadius(double x, double h){
-	double m = Math.sqrt(3.0 * x / (Math.PI * h));
+  double coneVolume(double x, double h){
+	double m = Math.sqrt(3.0 * x / (Math.PI* x * x * h));
 	return m;
   }
 
   double distance(double x1, double y1, double x2, double y2){
+	double d = Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2));
+	return d;
+  }
 }
+  
