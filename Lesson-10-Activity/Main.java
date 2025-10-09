@@ -38,6 +38,17 @@ class Main {
 		}
 	}
 
+	double BMI(double weight, double height){
+		double bmiValue = weight / (height * height);
+		if (bmiValue <= 18.4) {
+			System.out.println("Underweight");
+		} else if (bmiValue <= 24.9) {
+			System.out.println("Normal weight");
+		} else {
+			System.out.println("Overweight");
+		}
+		return bmiValue;
+	}
 	
   }
   
