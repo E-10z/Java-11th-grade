@@ -12,12 +12,8 @@ class Main {
     Calculate the sum of the two numbers and store the 
     calculated sum and then display it.
     
-    
 */
-    int x1 = 10;
-    int x2 = 90;
-    int sum = x1 + x2;
-   System.out.println("the sum is:" + sum);
+   
 
 
 /*  
@@ -27,11 +23,7 @@ class Main {
     calculated sum and then display it.
     
 */
-    int grade1 = 85;
-    int grade2 = 90;
-    int grade3 = 78;
-    int totalGrades = grade1 + grade2 + grade3;
-    System.out.println("the total of the three grades is:" + totalGrades);
+
 
 
 /*  
@@ -41,19 +33,17 @@ class Main {
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
-    double average = totalGrades / 3.0;
-    System.out.println("the average of the grade is:" + average);
+
 
 
 /*  
     Challenge 4:
     Write the following equation in EQ1.PNG file in Java; store the result and the display it:
     Declare and assign values to any new variables
+
 */
-    double a=25; 
-    double x3=4;
-    double y= (a/(x3 +1)); 
-    System.out.println("the answer to the equation is:" + y );
+  
+
 /*  
     Challenge 5:
     Using the variables same variables from challenge4 above, write the following equation in EQ2.PNG file in Java, store the result and the display it:
@@ -61,10 +51,11 @@ class Main {
     Declare and assign values to any new variables
 
 */
-    double twoA=10;
-    double x4=3;
-    double twoY= (2 * x4 * (x4 + 1) * (-x4 / 2.0)) / twoA;
-    System.out.println("the answer to the equation is:"+ twoY );
+ 
+
+
+
+
 
 /*  
     Challenge 6:
@@ -74,10 +65,7 @@ class Main {
     Declare and assign values to any new variables
 */
  
-    double b=2;
-    double h=3;
-    double area= (b * h) / 2.0;
-    System.out.println("the area of the triangle is:" + area );
+
 
 
 

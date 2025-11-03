@@ -2,14 +2,15 @@ class Main {
   public static void main(String[] args) {
     (new Main()).init();
   }
-
-  // Init function which runs when the 
-  // program begins.  
+  void print(Object o){ System.out.println(o);}
+  void printt(Object o){ System.out.print(o);}
 
   void init(){
-   
     
+
   }
 
+  
+  
   
 }

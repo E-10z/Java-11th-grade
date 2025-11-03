@@ -4,10 +4,6 @@ class Main {
 	}
 
  void init(){
-    int age= 10;
-    int numberOfPeople= 6;
-    int numberOfItems= 5;
-
 /*  
     Challenge 1:
     Create a variable to store and display its value (assign a value to each variable):
@@ -18,7 +14,7 @@ class Main {
   
  
  
-    
+
 
 /*  
     Challenge 2:
