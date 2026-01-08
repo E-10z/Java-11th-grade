@@ -1,0 +1,9 @@
+class Car{
+        String brand;
+        String:color;
+        String model;
+        int year;
+        double value;
+
+        Car(String brand, String model, )
+}
