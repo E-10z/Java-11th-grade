@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gen 1 Pokémon</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="init_customers()">
+    <div>
+
+      <!-- Header -->
+      <div id="header">
+        <h1>Gen 1 Pokémon</h1>
+      </div>
+
+      <div class="container">
+
+        <!-- Filter panel – buttons written directly in HTML -->
+        <div class="panel">
+          <label>Filter by Type:</label>
+          <!-- filter buttons -->
+          <div id="filterBtnContainer">
+            <button class="btn active" onclick="filterSelection(this, 'all')">Show All</button>
+            <button class="btn" onclick="filterSelection(this, 'normal')">Normal</button>
+            <button class="btn" onclick="filterSelection(this, 'fire')">Fire</button>
+            <button class="btn" onclick="filterSelection(this, 'water')">Water</button>
+            <button class="btn" onclick="filterSelection(this, 'grass')">Grass</button>
+            <button class="btn" onclick="filterSelection(this, 'electric')">Electric</button>
+            <button class="btn" onclick="filterSelection(this, 'ice')">Ice</button>
+            <button class="btn" onclick="filterSelection(this, 'fighting')">Fighting</button>
+            <button class="btn" onclick="filterSelection(this, 'poison')">Poison</button>
+            <button class="btn" onclick="filterSelection(this, 'ground')">Ground</button>
+            <button class="btn" onclick="filterSelection(this, 'flying')">Flying</button>
+            <button class="btn" onclick="filterSelection(this, 'psychic')">Psychic</button>
+            <button class="btn" onclick="filterSelection(this, 'bug')">Bug</button>
+            <button class="btn" onclick="filterSelection(this, 'rock')">Rock</button>
+            <button class="btn" onclick="filterSelection(this, 'ghost')">Ghost</button>
+            <button class="btn" onclick="filterSelection(this, 'dragon')">Dragon</button>
+          </div>
+        </div>
+
+        <!-- Cards rendered by script.js -->
+        <div id="centerpanel" class="container"></div>
+
+      </div>
+
+      <div id="foot">
+        <h3>Ethan Lin & Wen Huang Li</h3>
+      </div>
+
+    </div>
+  </body>
+</html>
