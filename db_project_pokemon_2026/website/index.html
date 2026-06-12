@@ -7,7 +7,7 @@
     <script src="script.js"></script>
   </head>
 
-  <body onload="init_customers()">
+  <body onload="init_pokemon()">
     <div>
 
       <!-- Header -->
@@ -19,26 +19,12 @@
 
         <!-- Filter panel – buttons written directly in HTML -->
         <div class="panel">
-          <label>Filter by Type:</label>
-          <!-- filter buttons -->
-          <div id="filterBtnContainer">
-            <button class="btn active" onclick="filterSelection(this, 'all')">Show All</button>
-            <button class="btn" onclick="filterSelection(this, 'normal')">Normal</button>
-            <button class="btn" onclick="filterSelection(this, 'fire')">Fire</button>
-            <button class="btn" onclick="filterSelection(this, 'water')">Water</button>
-            <button class="btn" onclick="filterSelection(this, 'grass')">Grass</button>
-            <button class="btn" onclick="filterSelection(this, 'electric')">Electric</button>
-            <button class="btn" onclick="filterSelection(this, 'ice')">Ice</button>
-            <button class="btn" onclick="filterSelection(this, 'fighting')">Fighting</button>
-            <button class="btn" onclick="filterSelection(this, 'poison')">Poison</button>
-            <button class="btn" onclick="filterSelection(this, 'ground')">Ground</button>
-            <button class="btn" onclick="filterSelection(this, 'flying')">Flying</button>
-            <button class="btn" onclick="filterSelection(this, 'psychic')">Psychic</button>
-            <button class="btn" onclick="filterSelection(this, 'bug')">Bug</button>
-            <button class="btn" onclick="filterSelection(this, 'rock')">Rock</button>
-            <button class="btn" onclick="filterSelection(this, 'ghost')">Ghost</button>
-            <button class="btn" onclick="filterSelection(this, 'dragon')">Dragon</button>
-          </div>
+           <br>
+          <input id="filter" placeholder="Enter name here...">
+          <input type = "button" onclick="filter_pokemon()">
+        </div>
+        
+        <div id='centerpanel' class='container'>
         </div>
 
         <!-- Cards rendered by script.js -->
